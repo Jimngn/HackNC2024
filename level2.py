@@ -8,7 +8,7 @@ import numpy as np
 def run():
     WIDTH, HEIGHT = 800, 600
     FPS = 60
-    GAME_DURATION = 6000
+    GAME_DURATION = 60000
     CAPTURE_RADIUS = 55
 
     pygame.init()

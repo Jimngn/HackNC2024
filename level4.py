@@ -43,7 +43,7 @@ def run():
         screen.blit(text, text_rect)
         
 
-        score_text = pygame.font.Font(None, 36).render(f"Final Score: {final_score}", True, (255, 255, 255))
+        score_text = pygame.font.Font(None, 36).render(f"Level Score: {final_score}", True, (255, 255, 255))
         score_rect = score_text.get_rect(center=(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2 + 30))
         screen.blit(score_text, score_rect)
         
